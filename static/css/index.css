@@ -1,0 +1,157 @@
+        /* CSS Reset */
+
+        body {
+            margin: 0;
+            font-family: 'Viaoda Libre', cursive;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+        }
+        .bg-dark {
+            background-color:#10219b!important;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgb(223, 205, 41);
+            font-size: 23px;
+        }
+        
+        .display-4 {
+            font-size: 6.5rem;
+            font-weight: 600;
+            line-height: 1.2;
+            color:whitesmoke
+        }
+        .lead {
+            font-size: 2.25rem;
+            font-weight: 300;
+            color: whitesmoke;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: wheat;
+            font-size: 22px;
+        }
+        .navbar-brand img {
+            height: 40px;
+            width: 77px;
+            border-radius: 16px;
+        
+        }
+        
+        .text-center {
+            text-align: center!important;
+        }
+        .tag-blue {
+            color: #fdbb07;
+            font-size: 45px;
+            font-weight: bold;
+        
+        }
+        .contact p {
+            color: #0D122B;
+            font-size: 20px;
+            text-align: center;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-family: 'Lobster', cursive;
+        }
+        .row.footer-social-icons {
+            display: flex;
+            justify-content: center;
+            margin-left: -186px;
+        }
+        .social-icons {
+            color: #fff;
+        }
+        dl, ol, ul {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+        dl, ol, ul {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .footer-social-icons {
+            display: block;
+            padding-top: 45px;
+        }
+        article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+            display: block;
+        }
+        .social-icons li {
+            display: inline;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .footer {
+            position: absolute;
+            right: 0;
+            left: 0;
+            padding: 1rem;
+            background-color: #0D122B;
+        }
+        footer .footer .fa-linkedin {
+            padding: 10px 14px;
+            transition: .5s;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 12px;
+            border: 1px solid #0073a4;
+        }
+        .fa-linkedin:hover {
+            background-color: #0073a4;
+            border: 1px solid #3d5b99;
+            border-radius: 12px;
+            color: #FFFFFF;
+        }
+        li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+        .fa-linkedin {
+            padding: 10px 14px;
+            margin-right: 20px;
+            margin-left: -50px;
+            border-radius: 12px;
+            border: 1px solid #0073a4;
+            color: #0073a4;
+        }
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+        .fa-2x {
+            font-size: 2em;
+        }
+        .btn-light {
+            color: #375593;
+            background-color: #B3E5FC;
+            border-color: #071828;
+        }
+        .about-button.btn-light {
+            font-size: 20px;
+            font-weight: 500;
+            color: #FFFFFF;
+            background-color: #0D122B;
+        }
